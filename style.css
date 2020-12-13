@@ -24,7 +24,7 @@ body{
     margin-top: 100px;
 }
 .menu{
-    width: 40%;
+    width: 60%;
     height: 40px;
     background-color: #3E5264;
     font-size: 16px;
@@ -53,13 +53,23 @@ body{
     transform: rotate(180deg);
 }
 .menu-content{
-    width: 40%;
+    width: 60%;
     max-height: 0;
     overflow: hidden;
     text-align: justify;
+    margin: 10px;
+    padding-right: 10px;
     padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 5px;
-    border-left: 3px solid  #3E5264;
+    border-left: 3px solid  #596c7d;
     transition: max-height .2s linear;
+    font-size: 17px;
+}
+
+@media (max-width: 968px){
+    .menu{
+        width: 90%;
+    }
+    .menu-content{
+        width: 90%;
+    }
 }
